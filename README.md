@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# EV Car Shop Voice
+**EV Car Shop Voice** เป็น Web Application สำหรับค้นหาและเลือกชมรถยนต์ไฟฟ้า (EV) ที่พัฒนาส่วน Frontend ด้วย **Next.js (TypeScript)** โดยมีฟีเจอร์เด่นคือ **ระบบสั่งงานด้วยเสียง (Voice Command)** ซึ่งเชื่อมต่อการประมวลผลคำสั่งผ่าน **n8n Workflow Automation** เพื่อค้นหารถรุ่นที่ผู้ใช้ต้องการได้อย่างรวดเร็วและแม่นยำ
+ ---
+## Features 
+- **Voice-Activated Search:** 
+รองรับการค้นหารถ EV ด้วยเสียง (Voice Recognition) ผ่าน API Route ภายในแอป 
+- **Extensive EV Catalog:** รวบรวมข้อมูลและรูปภาพรถยนต์ไฟฟ้าหลากหลายแบรนด์ชั้นนำ (เช่น BYD, Tesla, MG, GWM, BMW, Volvo และอื่นๆ) 
+- **n8n Integration:** ใช้ **n8n Webhook** เป็น Backend หลักในการรับคำสั่งเสียง/ข้อความ เพื่อประมวลผล Logic และส่งข้อมูลรถที่ตรงกับความต้องการกลับมา 
+-  **Modern & Responsive UI:** ออกแบบหน้าจอด้วย **Tailwind CSS** ให้มีความสวยงาม ทันสมัย และรองรับการแสดงผลบนทุกอุปกรณ์ 
+-  **Type-Safe Architecture:** พัฒนาด้วย **TypeScript** ทั้งโปรเจกต์ เพิ่มความเสถียร ลดข้อผิดพลาด และง่ายต่อการขยายฟีเจอร์ในอนาคต 
+- ---    
+----------
+## Team Diao koy tang
+| **Student ID** | **Name**               |
+|-----------------|------------------------|
+| 67023008        | Apinya Sanghong        |
+| 67025077        | Supharoke Roopkhamdee     | 
+| 67026427        | Pattarawin Rungpanarat |
 
-First, run the development server:
+---
+## Demo
+[EV Car Shop Voice](https://ev-car-shop-voice.vercel.app//)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+**หากมีคำถาม สามารถติดต่อผู้ดูแลโปรเจค:**
+  -  อีเมล: naysasatadur5555@gmail.com
+  -  GitHub: [https://github.com/pxttxrxwxn](https://github.com/pxttxrxwxn)
